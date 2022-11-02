@@ -1,48 +1,30 @@
-import React from "react"
-import { Route, Router, Routes } from 'react-router-dom';
-import Navigation from "./components/Navigation";
-import Home from './pages/Home'
+import { Route, Routes } from "react-router-dom";
+import './assets/css/App.css';
 
-// import {
-//   ApolloClient,
-//   InMemoryCache,
-//   ApolloProvider,
-//   createHttpLink,
-// } from "@apollo/client";
-// import { setContext } from "@apollo/client/link/context";
-
-// const httpLink = createHttpLink({
-//   uri: "/graphql",
-// });
-
-// const authLink = setContext((_, { headers }) => {
-//   const token = localStorage.getItem("id_token");
-
-//   return {
-//     headers: {
-//       ...headers,
-//       authorization: token ? `Bearer ${token}` : "",
-//     },
-//   };
-// });
-
-// const client = new ApolloClient({
-//   link: authLink.concat(httpLink),
-//   cache: new InMemoryCache(),
-// });
-
+import Navigation from './components/Navigation';
+import About from './components/About';
+import Contact from './components/Contact';
+import FAQ from './components/FAQ';
+import Home from './components/Home';
+import Packages from './components/Packages';
+import Venues from './components/Venues';
+import { Nav } from "react-bootstrap";
 
 function App() {
   return (
-    <Router>
-    {/* // <ApolloProvider client={client}> */}
+    <div className="App">
+
       <Navigation />
+      
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={< Home />}></Route>
+        <Route path="/venues" element={< Venues />}></Route>
+        <Route path="/packages" element={< Packages />}></Route>
+        <Route path="/about" element={< About />}></Route>
+        <Route path="/contact" element={< Contact />}></Route>
+        <Route path="/faq" element={< FAQ />}></Route>
       </Routes>
-    {/* // </ApolloProvider> */}
-    </Router>
-    
+    </div>
   );
 }
 

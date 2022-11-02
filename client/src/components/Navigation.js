@@ -1,20 +1,19 @@
 import { Navbar, NavLink, Nav } from 'react-bootstrap';
 
-
-export default function Navigation(props) {
+export default function Navigation() {
     return (
-        <Navbar>
-            <NavLink>
-                <h1>Wedding</h1>
-            </NavLink>
-                <Nav>
-                    <NavLink classname='' href='/'>Home</NavLink>
-                    <NavLink classname='' href='/venue'>Venue</NavLink>
-                    <NavLink classname='' href='/packages'>Packages</NavLink>
-                    <NavLink classname='' href='/pricing'>Pricing</NavLink>
-                    <NavLink classname='' href='/contact'>Contact Us</NavLink>
-                </Nav>
-            
+        <Navbar className='navFull' collapseOnSelect expand='lg' bg='black' variant='dark'>
+            <Navbar.Toggle aria-controls='navbarScroll' data-bs-target='#navbarScroll' />
+            <Navbar.Collapse id='navbarScroll'>
+                    <Nav className='navWrap'>
+                        <NavLink className='navItem' href='/'>Home</NavLink>
+                        <NavLink className='navItem' href='/venues'>Venues</NavLink>
+                        <NavLink className='navItem login' href='/packages'>Packages/Pricing</NavLink>
+                        <NavLink className='navItem' href='/about'>About Us</NavLink>
+                        <NavLink className='navItem login' href='/contact'>Contact Us</NavLink>
+                        <NavLink className='navItem login' href='/faq'>FAQ</NavLink>
+                    </Nav>
+            </Navbar.Collapse>
         </Navbar>
     )
 }
