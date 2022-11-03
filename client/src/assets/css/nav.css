@@ -1,0 +1,42 @@
+.navimg {
+    width: 150px;
+}
+
+.navimg:hover {
+    transition: all .5s ease-out;
+    width: 160px;
+}
+
+.navWrap {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.navItem {
+    position: relative;
+    font-size: 17px;
+    color: #c0bfbf;
+}
+
+.navItem:hover {
+    color: black;
+}
+
+@media (min-width: 992px) {
+    .navimg {
+        position: absolute;
+        left: 8%;
+        top: 0%;
+    }
+
+    .navWrap {
+        height: 150px;
+    }
+
+    .navItem {
+        margin: 25px;
+        right: 30px;
+    }
+}
