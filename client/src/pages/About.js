@@ -18,6 +18,20 @@ export default function About() {
             </Container>
         </div>
         <div>
+            <Container>
+                <h2>Directions</h2>
+                <p>you drive on a road. you take an exit. you turn that way. then you drive and turn this way. boom you made it!</p>
+            </Container>
+        </div>
+        <div>
+            <Container>
+                <h2>
+                    Map
+                </h2>
+                <map>(MAP GOES HERE)</map>
+            </Container>
+        </div>
+        <div>
             <footer></footer>
         </div>
        </>
