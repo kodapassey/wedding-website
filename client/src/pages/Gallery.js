@@ -1,8 +1,17 @@
+import { Container } from "react-bootstrap";
 
 
 
 export default function Gallery() {
     return (
-       <h1>Gallery</h1> 
+        <>
+        <div>
+            <Container>
+            <h1>Gallery</h1> 
+            </Container>
+            
+        </div>
+        </>
+       
     )
 }
