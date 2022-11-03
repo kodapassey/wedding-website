@@ -1,4 +1,5 @@
 import { Navbar, NavLink, Nav } from 'react-bootstrap';
+import logo from "./images/Screenshot_20221102_053356.png"
 
 export default function Navigation() {
     return (
