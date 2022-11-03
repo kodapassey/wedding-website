@@ -1,0 +1,21 @@
+.heroDiv {
+    width: 100%;
+}
+
+.heroDiv button {
+    width: 20px;
+}
+
+.heroImg {
+    width: 100%;
+    height: 750px;
+}
+
+.heroTxt {
+    position: absolute;
+    font-size: 5vw;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
