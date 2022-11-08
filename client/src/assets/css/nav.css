@@ -4,13 +4,13 @@
 
 .navimg:hover {
     transition: all .5s ease-out;
-    width: 160px;
+    width: 140px;
 }
 
 .navWrap {
     display: flex;
-    justify-content: right;
     align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -18,9 +18,22 @@
     position: relative;
     font-size: 17px;
     color: #c0bfbf;
+    font-weight: bold;
 }
 
 .navItem:hover {
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+.socials {
+    color: #c0bfbf;
+    ;
+    font-size: 25px;
+}
+
+.socials:hover {
+    transition: all .5s ease-out;
     color: black;
 }
 
@@ -29,14 +42,21 @@
         position: absolute;
         left: 8%;
         top: 0%;
+        width: 135px;
     }
 
     .navWrap {
-        height: 150px;
+        height: 125px;
     }
 
     .navItem {
         margin: 25px;
-        right: 30px;
+    }
+
+    .socials {
+        color: #c0bfbf;
+        ;
+        font-size: 25px;
+        margin-right: 20px;
     }
 }

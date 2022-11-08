@@ -1,6 +1,9 @@
 import { Navbar, NavLink, Nav } from 'react-bootstrap';
 import logo from "./images/Screenshot_20221102_053356.png"
 import '../assets/css/nav.css';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export default function Navigation() {
     return (
@@ -21,6 +24,16 @@ export default function Navigation() {
                     <NavLink className='navItem' href='/venue'>Venue</NavLink>
                     <NavLink className='navItem login' href='/packages'>Packages</NavLink>
                     <NavLink className='navItem login' href='/contact'>Contact Us</NavLink>
+
+                    <div className='socialWrap'>
+                        <a target='_blank' rel="noreferrer" href='https://github.com/kodapassey'>
+                            <FontAwesomeIcon className='socials' icon={faInstagram} />
+                        </a>
+
+                        <a target='_blank' rel="noreferrer" href='https://github.com/kodapassey'>
+                            <FontAwesomeIcon className='socials' icon={faFacebook} />
+                        </a>
+                    </div>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
