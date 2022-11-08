@@ -28,11 +28,7 @@ export default function Home() {
                 margin: '10px'
             }}><svg fill="#fff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z" /></svg></button>}>
                 <div className="each-slide-effect">
-                    <div className='slideImg' style={{ 'backgroundImage': `url(${images[0]})` }}>
-                        <span>
-                            Welcome
-                        </span>
-                    </div>
+                <iframe width="1300" height="650" src="https://www.youtube.com/embed/fPHvlUcjF2c?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="each-slide-effect">
                     <div className='slideImg' style={{ 'backgroundImage': `url(${images[1]})` }}>
