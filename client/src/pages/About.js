@@ -28,7 +28,17 @@ export default function About() {
                 <h2>
                     Map
                 </h2>
-                <map>(MAP GOES HERE)</map>
+                <iframe 
+                title="myMap" 
+                src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.9820332572726!2d-123.33890028446842!3d42.576903829372306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c59e2df6da1719%3A0xca312100026e0002!2s2500%20Jumpoff%20Joe%20Creek%20Rd%2C%20Grants%20Pass%2C%20OR%2097526!5e0!3m2!1sen!2sus!4v1667513044396!5m2!1sen!2sus" 
+                width="400" 
+                height="300" 
+                style={{border: 0}} 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
             </Container>
         </div>
         <div>
