@@ -20,6 +20,7 @@ export default function App() {
         <h1 classaName="mb-4">
           <strong>Packages</strong>
         </h1>
+        <p>Below are some of our more popular packages, however, as wedding are very special and unique, we want to ensure that every wedding is special per the wedding party. We want to make sure it is excatly to the specs of the marriage party. If you do not see a package that is perfect for you, please reach out. We are happy to accomodate most requests. </p>
 
         {/* <MDBBtnGroup className="mb-4" aria-label="Basic example">
           <MDBBtn href="#" color="dark" active>
