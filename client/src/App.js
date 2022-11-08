@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Packages from './pages/Packages';
 import Venue from './pages/Venue';
 import Gallery from "./pages/Gallery";
+import Footer from "./pages/Footer";
 import { Nav } from "react-bootstrap";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
 
       <Navigation />
-      
+
       <Routes>
         <Route path="/" element={< Home />}></Route>
         <Route path="/venue" element={< Venue />}></Route>
@@ -24,6 +25,8 @@ function App() {
         <Route path="/contact" element={< Contact />}></Route>
         <Route path="/gallery" element={< Gallery />}></Route>
       </Routes>
+
+      <Footer />
     </div>
   );
 }
