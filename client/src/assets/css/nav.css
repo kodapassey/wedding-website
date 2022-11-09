@@ -7,6 +7,10 @@
     width: 140px;
 }
 
+.navFull {
+    border-bottom: 2px solid lightgray;
+}
+
 .navWrap {
     display: flex;
     align-items: center;
