@@ -16,7 +16,7 @@ export default function Footer() {
                         <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
                                 <MDBIcon color='secondary' icon='gem' className='me-3' />
-                                Company name
+                                Cascade Mountain Ranch
                             </h6>
                             <p>
                                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
@@ -52,7 +52,7 @@ export default function Footer() {
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                             <p>
                                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                                New York, NY 10012, US
+                                2500 Jumpoff Joe Creek Rd, Grants Pass, OR 97526
                             </p>
                             <p>
                                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
