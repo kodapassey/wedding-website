@@ -32,9 +32,9 @@ export default function Home() {
                 </div>
                 <div className="each-slide-effect">
                     <div className='slideImg' style={{ 'backgroundImage': `url(${images[1]})` }}>
-                        <span>
+                        <h2>
                             Welcome
-                        </span>
+                        </h2>
                     </div>
                 </div>
                 <div className="each-slide-effect">
