@@ -5,6 +5,7 @@ import { Button, SendIcon } from "@mui/material";
 import Image from "mui-image";
 import { links } from "../components/ButtonLinks";
 import "../assets/css/App.css";
+import contactImg from "../components/images/ranchWeddingImages/image30.png"
 
 export default function Form() {
   return (
@@ -29,7 +30,7 @@ export default function Form() {
           autoComplete="off"
         >
           <Image
-            src="https://www.cowboysindians.com/wp-content/uploads/2018/11/black-mountain-070-1080x600.jpg"
+            src={contactImg}
             height="100"
             width="100%"
             fit="fill"

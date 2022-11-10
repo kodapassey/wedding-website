@@ -63,30 +63,22 @@ export default function About() {
 
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[0]})` }}>
-              <span>
-                Welcome
-              </span>
+             
             </div>
           </div>
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[1]})` }}>
-              <span>
-                Welcome
-              </span>
+            
             </div>
           </div>
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[2]})` }}>
-              <span>
-                Welcome
-              </span>
+              
             </div>
           </div>
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[3]})` }}>
-              <span>
-                Welcome
-              </span>
+             
             </div>
           </div>
         </Slide>
