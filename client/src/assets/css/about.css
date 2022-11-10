@@ -4,10 +4,13 @@
 
 .about h1 {
     font-size: 75px;
+    font-weight: bold;
 }
 
 .about p {
     margin: 50px 150px 50px 150px;
+    font-size: 18px;
+    line-height: 1.75;
 }
 
 
