@@ -146,7 +146,7 @@ export default function Form() {
           </Box>
         </Box>
 
-        <Box>
+        {/* <Box>
           <a className="gitHub-btn" href={links[0].github}>
             <i class="fa-brands fa-github"></i>
           </a>
@@ -156,7 +156,7 @@ export default function Form() {
           <a className="facebook-btn" href={links[0].facebook}>
             <i className="fab fa-facebook"></i>
           </a>
-        </Box>
+        </Box> */}
       </Container>
     </>
   );
