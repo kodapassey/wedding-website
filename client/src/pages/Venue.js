@@ -149,9 +149,7 @@ export default function Venue() {
               <Col className="box" xl={6}>
                 {/* <a className='boxLink' href='#'> */}
                 <img className="image" src={cascadeImg}></img>
-                <div className="textWrap">
-                  
-                </div>
+               
                 {/* </a> */}
               </Col>
               <Col>
@@ -220,10 +218,7 @@ export default function Venue() {
             <Col className="box" xl={6}>
                 {/* <a className='boxLink' href='#'> */}
                 <img className="image" src={kellyImg}></img>
-                <div className="textWrap">
-                  
-                </div>
-                {/* </a> */}
+               
               </Col>
           </Row>
 
