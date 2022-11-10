@@ -1,7 +1,7 @@
 import { Navbar, NavLink, Nav } from 'react-bootstrap';
 import logo from "./images/Screenshot_20221102_053356.png"
 import '../assets/css/nav.css';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram,faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -32,6 +32,9 @@ export default function Navigation() {
 
                         <a target='_blank' rel="noreferrer" href='https://facebook.com/mwjones2186'>
                             <FontAwesomeIcon className='socials' icon={faFacebook} />
+                        </a>
+                        <a target='_blank' rel="noreferrer" href='https://facebook.com/mwjones2186'>
+                            <FontAwesomeIcon className='socials' icon={faYoutube} />
                         </a>
                     </div>
                 </Nav>
