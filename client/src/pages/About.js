@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import '../assets/css/about.css';
-import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import heroImg1 from '../components/images/black-mountain-070-1080x600.jpg';
