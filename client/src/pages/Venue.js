@@ -5,6 +5,7 @@ export default function Venue() {
     <>
       <div>
         <Container>
+            {/* HERO IMAGE GOES HERE */}
           <h1>Venue</h1>
           <p>
             Cascade Mountain Ranch is a 50-acre ranch nestled in its own private
@@ -44,6 +45,7 @@ export default function Venue() {
           </p>
         </Container>
         <Container>
+            {/* PICTURE OF CASCADE LODGE GOES HERE */}
             <h1>Cascade Lodge</h1>
                 <h4>Rooms and Suites</h4>
                     <p>
@@ -62,8 +64,10 @@ export default function Venue() {
                     <p>
                         Amung others, there is a large wood burning fireplace, a pool table, piano, a game cabinet full of board and card games, a library full of books, laundry room and WiFi if you must!
                     </p>
+                    {/* MAYBE AN IMAGE GALLERY OF CASCADE LODGE HERE */}
         </Container>
         <Container>
+            {/* PICTURE OF KELLY LODGE GOES HERE */}
             <h1>Kelly Lodge Lodge</h1>
 
                 <h4>Rooms and Suites</h4>
@@ -78,6 +82,7 @@ export default function Venue() {
                     <p>
                         Amung others, there is a large wood burning fireplace, a pool table, piano, a game cabinet full of board and card games, a library full of books, laundry room and WiFi if you must!
                     </p>
+                    {/* MAYBE A PICTURE GALLERY TO ADD OF KELLY LODGE */}
         </Container>
       </div>
     </>
