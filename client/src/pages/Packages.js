@@ -47,7 +47,7 @@ export default function App() {
                 </small> */}
               </p>
               <MDBBtn
-                href="#"
+                href="/contact"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -100,7 +100,7 @@ export default function App() {
                 $13,850
               </p>
               <MDBBtn
-                href="#"
+                href="/contact"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -149,7 +149,7 @@ export default function App() {
                 $16,910
               </p>
               <MDBBtn
-                href="#"
+                href="/contact"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -211,7 +211,7 @@ export default function App() {
                 $20,265
               </p>
               <MDBBtn
-                href="#"
+                href="/contact"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -268,7 +268,7 @@ export default function App() {
                 $22,050
               </p>
               <MDBBtn
-                href="#"
+                href="/contact"
                 color="dark"
                 className="d-block mb-2 mt-3 text-capitalize"
               >
@@ -313,7 +313,7 @@ export default function App() {
         </p>
         <p>**Photography: The pictures that are included with the package, are editated photos. These will be professionally edited by the photographer. Also, if you would like to hire your own photographer, you are more than welcome. We can either still provide a photographer for the package pictures or discount package to reflect no pictures provided from us. </p>
         <p>***Alcohol: Due to state regulations, a bar tender is required to be provided for all alcoholic beverages. All alcoholic beverages must be served by a regulated bartender</p>
-        <p>****Celebration trip: After the ceremony and following day, a comlimentry flight to Los Angeles, Las Vegas or Oregon Beaches. Included in this Trip is, round trip tickets for 2, 2 night accomodations and entrance tickets to event of choice provided by Cascade Mountain Ranch.</p>
+        <p>****Celebration trip: After the ceremony and following day, a comlimentry flight to Los Angeles, Las Vegas or Oregon Beaches. Included in this trip are, round trip tickets for 2, 2 night accomodations and entrance tickets to event of choice provided by Cascade Mountain Ranch.</p>
         <p></p>
         <p></p>
     </div>

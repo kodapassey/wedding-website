@@ -30,7 +30,7 @@ export default function Navigation() {
                             <FontAwesomeIcon className='socials' icon={faInstagram} />
                         </a>
 
-                        <a target='_blank' rel="noreferrer" href='https://github.com/kodapassey'>
+                        <a target='_blank' rel="noreferrer" href='https://facebook.com/mwjones2186'>
                             <FontAwesomeIcon className='socials' icon={faFacebook} />
                         </a>
                     </div>
