@@ -1,4 +1,6 @@
 import heroImg1 from '../components/images/black-mountain-070-1080x600.jpg';
+import heroImg2 from '../components/images/ranchWeddingImages/image9.jpg'
+import heroImg3 from '../components/images/ranchWeddingImages/image12.jpg'
 import '../assets/css/home.css';
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
@@ -42,7 +44,7 @@ export default function Home() {
                     </Col>
                     <Col className='box' xl={4}>
                         <a className='boxLink' href='/packages'>
-                            <img className='image' src={heroImg1}></img>
+                            <img className='image' src={heroImg2}></img>
                             <div className='textWrap'>
                                 <h3>Weddings</h3>
                             </div>
@@ -50,7 +52,7 @@ export default function Home() {
                     </Col>
                     <Col className='box' xl={4}>
                         <a className='boxLink' href='/gallery'>
-                            <img className='image' src={heroImg1}></img>
+                            <img className='image' src={heroImg3}></img>
                             <div className='textWrap'>
                                 <h3>Events and reunions</h3>
                             </div>
