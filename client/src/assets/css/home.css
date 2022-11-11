@@ -80,6 +80,12 @@
     font-weight: bold;
 }
 
+@media (max-width: 1300px) {
+    .main {
+        height: 350px;
+    }
+}
+
 @media (max-width: 992px) {
     .subHeader {
         padding: 25px;
