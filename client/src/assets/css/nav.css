@@ -33,13 +33,30 @@
 
 .socials {
     color: #c0bfbf;
-    ;
     font-size: 25px;
 }
 
 .socials:hover {
     transition: all .5s ease-out;
     color: black;
+}
+
+
+
+@media (max-width: 1300px) {
+    .navWrap {
+        justify-content: right;
+    }
+
+    .navItem {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navItem {
+        margin: 5px;
+    }
 }
 
 @media (min-width: 992px) {
