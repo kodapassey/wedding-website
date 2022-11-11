@@ -1,27 +1,8 @@
-import React from "react";
-import {
-  MDBContainer,
-  MDBBtnGroup,
-  MDBBtn,
-  MDBRow,
-  MDBCol,
-  MDBCard,
-  MDBCardBody,
-  MDBCardFooter,
-  MDBTypography,
-  MDBIcon,
-  MDBCardTitle,
-} from "mdb-react-ui-kit";
-
-
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function App() {
   return (
-
-
     <>
-
       <div className="packagesHeader">
         <h1>Packages</h1>
         <p>Below are some of our more popular packages, however, as wedding are very special and unique, we want to ensure that every wedding is special per the wedding party. We want to make sure it is excatly to the specs of the marriage party. If you do not see a package that is perfect for you, please reach out. We are happy to accomodate most requests. </p>
