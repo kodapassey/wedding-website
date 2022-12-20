@@ -1,0 +1,177 @@
+.head {
+    margin: 50px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.description {
+    margin: 50px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.subHead {
+    border-top: 2px solid lightgray;
+    margin: 50px;
+    padding: 25px;
+    font-size: 50px;
+}
+
+.venueImg {
+    width: 100%;
+    height: 95%;
+    border: 3px solid lightgray;
+}
+
+.break {
+    width: 100%;
+    height: 25px;
+}
+
+.venue {
+    height: 100%;
+}
+
+.venue h4 {
+    font-size: 30px;
+}
+
+.packagesHeader {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.packagesHeader h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.topBox h2 {
+    font-size: 22px;
+}
+
+.topBox h3 {
+    font-size: 17px;
+    color: rgba(var(--bs-body-color-rgb), .75) !important;
+}
+
+.topBox h4 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+.topBox button {
+    width: 100%;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.topBox button:hover {
+    transition: all .25s ease-out;
+    background: rgb(56, 56, 56);
+}
+
+.topBox,
+.bottomBox {
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.bottomBox {
+    border-top: none;
+}
+
+.bottomBox h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bottomBox ul li {
+    list-style: none;
+    position: relative;
+    right: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.fullBox {
+    margin: 25px;
+}
+
+.packagesWrap {
+    display: flex;
+    justify-content: center;
+}
+
+/* css for list */
+
+.listOfAmenities {
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.listOfAmenities li {
+    margin: 15px;
+}
+
+/* css for table */
+.packagesTable {
+    width: 90%;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.packagesTable th,
+.packagesTable tr {
+    border: 2px solid black;
+    padding: 15px;
+
+}
+
+/* css for bottom disclosures section */
+.disclosures {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 1px solid lightgray;
+    padding-top: 25px;
+}
+
+.disclosures h4 {
+    font-size: 45px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* media queries */
+@media (max-width: 1200px) {
+
+    .left,
+    .right {
+        text-align: center;
+    }
+
+
+    
+      .packagesTable td {
+        display: flex;
+      }
+}

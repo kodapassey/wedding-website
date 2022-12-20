@@ -1,0 +1,67 @@
+.about {
+    margin: 100px;
+}
+
+.about h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.about p {
+    margin: 50px 150px 50px 150px;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+
+.each-slide-effect>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.slideImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.directionsh1 {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-size: 55px;
+    border-bottom: 1px solid lightgray;
+}
+
+.directions {
+    margin-top: 50px;
+}
+
+.map {
+    margin-top: 75px;
+    width: 100%;
+    height: 600px;
+}
+
+
+@media (max-width: 1300px) {
+
+    .about,
+    .about p {
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
+    .each-slide-effect>div {
+        height: 350px;
+    }
+}
