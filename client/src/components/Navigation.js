@@ -26,11 +26,11 @@ export default function Navigation() {
                     <NavLink className='navItem login' href='/contact'>Contact Us</NavLink>
 
                     <div className='socialWrap'>
-                        <a target='_blank' rel="noreferrer" href='https://github.com/kodapassey'>
+                        <a target='_blank' rel="noreferrer" href='https://instagram.com'>
                             <FontAwesomeIcon className='socials' icon={faInstagram} />
                         </a>
 
-                        <a target='_blank' rel="noreferrer" href='https://facebook.com/mwjones2186'>
+                        <a target='_blank' rel="noreferrer" href='https://facebook.com'>
                             <FontAwesomeIcon className='socials' icon={faFacebook} />
                         </a>
                     </div>
