@@ -46,19 +46,6 @@ p {
     font-size: 30px;
 }
 
-@media (max-width: 1200px) {
-
-    .left,
-    .right {
-        text-align: center;
-    }
-}
-
-
-
-
-
-
 .packagesHeader {
     width: 65%;
     margin: 0 auto;
@@ -131,6 +118,35 @@ p {
     justify-content: center;
 }
 
+/* css for list */
+
+.listOfAmenities {
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.listOfAmenities li {
+    margin: 15px;
+}
+
+/* css for table */
+.packagesTable {
+    width: 90%;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.packagesTable th,
+.packagesTable tr {
+    border: 2px solid black;
+    padding: 15px;
+
+}
+
+/* css for bottom disclosures section */
 .disclosures {
     width: 80%;
     margin: 0 auto;
@@ -143,4 +159,19 @@ p {
     font-size: 45px;
     margin: 10px;
     font-weight: bold;
+}
+
+/* media queries */
+@media (max-width: 1200px) {
+
+    .left,
+    .right {
+        text-align: center;
+    }
+
+
+    
+      .packagesTable td {
+        display: flex;
+      }
 }

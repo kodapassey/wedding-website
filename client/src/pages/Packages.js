@@ -114,6 +114,111 @@ export default function App() {
       </Container>
 
 
+      <section className="listOfAmenities">
+        <ol type="a">
+          <li>Celebration trip, after ceremony, complimantary flight to Los Angeles, Universal Studio area includes, flight, threee night accomodations, entrance tickets for two.</li>
+          <li>Venue, 2 day overnight included, longer stay, see costs, 60 guests, extra core family stay.</li>
+          <li>Food services (two C-breakfasts, Recital Dinner, Wedding Dinner, Continuous fruit, snacks, chips)</li>
+          <li>Lodging 2 lodges, and Carriage BunkHouse</li>
+          <li>Amenities, (tables, chairs, dinnerware, table and candles & cloths)</li>
+          <li>Complimantary(wine, soft drinks) bartender not included but mandatory</li>
+          <li>Photography (recommendation) 50 photos</li>
+          <li>Service Official(Minister available) plus arbor included</li>
+          <li>Music (sound system) Music is guest generated</li>
+          <li>House Transportation (golf cart transport to & from Lodges for B&G)</li>
+          <li>Cake & extras(recommendation) (Generally guest generated)</li>
+        </ol>
+      </section>
+
+
+      <table className="packagesTable">
+        <tr>
+          <th></th>
+          <th>Food Service</th>
+          <th>Premium Lodging</th>
+          <th>Lodges C-Hose Only</th>
+          <th>Tables & Chairs</th>
+          <th>Drinks</th>
+          <th>Photos</th>
+          <th>Minister</th>
+          <th>Music</th>
+          <th>Cart</th>
+          <th>Cake</th>
+          <th>?</th>
+        </tr>
+        <tr>
+          <td>Elite - $22,050</td>
+          <th>C</th>
+          <th>B</th>
+          <th>-</th>
+          <th>E</th>
+          <th>F</th>
+          <th>G</th>
+          <th>H</th>
+          <th>I</th>
+          <th>J</th>
+          <th>K</th>
+          <th>A</th>
+        </tr>
+        <tr>
+          <td>Extraordinary - $20,265</td>
+          <th>C</th>
+          <th>B</th>
+          <th>-</th>
+          <th>E</th>
+          <th>F</th>
+          <th>G</th>
+          <th>H</th>
+          <th>I</th>
+          <th>J</th>
+          <th>K</th>
+          <th>A</th>
+        </tr>
+        <tr>
+          <td>Exclusive - $16,910</td>
+          <th>C</th>
+          <th>-</th>
+          <th>D</th>
+          <th>E</th>
+          <th>F</th>
+          <th>-</th>
+          <th>H</th>
+          <th>Sound System Only</th>
+          <th>J</th>
+          <th>-</th>
+          <th>-</th>
+        </tr>
+        <tr>
+          <td>Exceptional - $13,850</td>
+          <th>C</th>
+          <th>-</th>
+          <th>Two Units Only</th>
+          <th>E</th>
+          <th>F</th>
+          <th>-</th>
+          <th>-</th>
+          <th>-</th>
+          <th>J</th>
+          <th>-</th>
+          <th>-</th>
+        </tr>
+        <tr>
+          <td>Executive - $11,080</td>
+          <th>C</th>
+          <th>-</th>
+          <th>Two Units Only</th>
+          <th>E</th>
+          <th>F</th>
+          <th>-</th>
+          <th>-</th>
+          <th>-</th>
+          <th>J</th>
+          <th>-</th>
+          <th>-</th>
+        </tr>
+      </table>
+
+
       <div className="disclosures">
         <h4>Disclosures</h4>
         <p>*Officiant: You are welcome to provide your own officiant. If you would like us to take care of this, we will provide an Officaint at no charge!
