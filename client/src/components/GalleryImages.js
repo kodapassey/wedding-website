@@ -5,35 +5,35 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 
 import image1 from "./images/ranchWeddingImages/image1.jpg"
-import image2 from "./images/ranchWeddingImages/image2.jpg"
+import image2 from "./images/ranchWeddingImages/image2.jpeg"
 import image3 from "./images/ranchWeddingImages/image3.jpg"
-import image4 from "./images/ranchWeddingImages/image4.jpg"
-import image5 from "./images/ranchWeddingImages/image5.jpg"
-import image6 from "./images/ranchWeddingImages/image6.jpg"
-import image7 from "./images/ranchWeddingImages/image7.jpg"
-import image8 from "./images/ranchWeddingImages/image8.jpg"
-import image9 from "./images/ranchWeddingImages/image9.jpg"
-import image10 from "./images/ranchWeddingImages/image10.jpg"
-import image11 from "./images/ranchWeddingImages/image11.jpg"
-import image12 from "./images/ranchWeddingImages/image12.jpg"
+import image4 from "./images/ranchWeddingImages/image4.jpeg"
+import image5 from "./images/ranchWeddingImages/image5.jpeg"
+import image6 from "./images/ranchWeddingImages/image6.jpeg"
+import image7 from "./images/ranchWeddingImages/image7.jpeg"
+import image8 from "./images/ranchWeddingImages/image8.jpeg"
+import image9 from "./images/ranchWeddingImages/image9.jpeg"
+import image10 from "./images/ranchWeddingImages/image10.jpeg"
+import image11 from "./images/ranchWeddingImages/image11.jpeg"
+import image12 from "./images/ranchWeddingImages/image12.jpeg"
 import image13 from "./images/ranchWeddingImages/image13.jpeg"
-import image14 from "./images/ranchWeddingImages/image14.jpg"
-import image15 from "./images/ranchWeddingImages/image15.jpg"
-import image16 from "./images/ranchWeddingImages/image16.jpg"
-import image17 from "./images/ranchWeddingImages/image17.jpg"
-import image18 from "./images/ranchWeddingImages/image18.jpg"
-import image19 from "./images/ranchWeddingImages/image19.jpg"
-import image20 from "./images/ranchWeddingImages/image20.jpg"
-import image21 from "./images/ranchWeddingImages/image21.jpg"
-import image22 from "./images/ranchWeddingImages/image22.jpg"
-import image23 from "./images/ranchWeddingImages/image23.jpg"
-import image24 from "./images/ranchWeddingImages/image24.jpg"
-import image25 from "./images/ranchWeddingImages/image25.jpg"
-import image26 from "./images/ranchWeddingImages/image26.jpg"
-import image27 from "./images/ranchWeddingImages/image27.jpg"
-import image28 from "./images/ranchWeddingImages/image28.webp"
-import image29 from "./images/ranchWeddingImages/image29.jpg"
-import image30 from "./images/ranchWeddingImages/image30.png"
+import image14 from "./images/ranchWeddingImages/image14.jpeg"
+import image15 from "./images/ranchWeddingImages/image15.jpeg"
+import image16 from "./images/ranchWeddingImages/image16.jpeg"
+import image17 from "./images/ranchWeddingImages/image17.jpeg"
+import image18 from "./images/ranchWeddingImages/image18.jpeg"
+import image19 from "./images/ranchWeddingImages/image19.jpeg"
+import image20 from "./images/ranchWeddingImages/image20.jpeg"
+import image21 from "./images/ranchWeddingImages/image21.jpeg"
+import image22 from "./images/ranchWeddingImages/image22.jpeg"
+import image23 from "./images/ranchWeddingImages/image23.jpeg"
+import image24 from "./images/ranchWeddingImages/image24.jpeg"
+import image25 from "./images/ranchWeddingImages/image25.jpeg"
+import image26 from "./images/ranchWeddingImages/image26.jpeg"
+import image27 from "./images/ranchWeddingImages/image27.jpeg"
+import image28 from "./images/ranchWeddingImages/image28.jpeg"
+import image29 from "./images/ranchWeddingImages/image29.jpeg"
+import image30 from "./images/ranchWeddingImages/image30.jpeg"
 
 const images = [
     {
@@ -96,10 +96,10 @@ const images = [
     image: image15,
     title: "Burning Love"
 },
-// {
-//   image: image16,
-//   title: "Cute Wedding"
-// },
+{
+  image: image16,
+  title: "Cute Wedding"
+},
 {
   image: image17,
   title: "Sam and Nancy Harrison"
@@ -120,10 +120,10 @@ const images = [
 image: image21,
 title: "Cascade Lodge Dinning hall"
 },
-// {
-// image: image22,
-// title: "Sweet Wedding"
-// },
+{
+image: image22,
+title: "Sweet Wedding"
+},
 {
 image: image23,
 title: "Adorable Wedding"
@@ -176,7 +176,7 @@ export default function MyGallery() {
               alt={item.title}
               loading="lazy"
             />
-            <ImageListItemBar
+            {/* <ImageListItemBar
             title={item.title}
             // subtitle={item.author}
             // actionIcon={
@@ -187,7 +187,7 @@ export default function MyGallery() {
               
             //   </IconButton>
             // }
-          />
+          /> */}
           </ImageListItem>
         ))}
       </ImageList>

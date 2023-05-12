@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -19,9 +19,9 @@ export default function Footer() {
                                 Cascade Mountain Ranch
                             </h6>
                             <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-                                amet, consectetur adipisicing elit.
+                                2500 Jumpoff Joe Creek Rd
                             </p>
+                            <p>Grants Pass, OR 97526</p>
                         </MDBCol>
 
                         <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
@@ -52,18 +52,18 @@ export default function Footer() {
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                             <p>
                                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                                2500 Jumpoff Joe Creek Rd, Grants Pass, OR 97526
+                                getaway@usa.com
                             </p>
                             <p>
                                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                                info@example.com
+                                (541) 890-8436
                             </p>
-                            <p>
-                                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
-                            </p>
-                            <p>
-                                <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
-                            </p>
+                            <a target='_blank' rel="noreferrer" href='https://www.facebook.com/CascadeMountainRanch/'>
+                            <FontAwesomeIcon className='socials' icon={faFacebook} />
+                        </a>
+                        <a target='_blank' rel="noreferrer" href='https://www.instagram.com/cascade_mountain_ranch/'>
+                            <FontAwesomeIcon className= 'socials' icon= {faInstagram} />
+                        </a>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

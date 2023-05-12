@@ -5,7 +5,7 @@ import { Button, SendIcon } from "@mui/material";
 import Image from "mui-image";
 import { links } from "../components/ButtonLinks";
 import "../assets/css/App.css";
-import contactImg from "../components/images/ranchWeddingImages/image30.png"
+import contactImg from "../components/images/ranchWeddingImages/lakeside2.jpg"
 
 export default function Form() {
   return (
@@ -102,9 +102,9 @@ export default function Form() {
                   boxShadow: 2,
                 }}
                 id="standard-basic"
-                label="Subject"
+                label="Phone Number"
                 variant="standard"
-                name="subject"
+                name="Phone Number"
                 required
               />
               {/* </div>
@@ -120,7 +120,7 @@ export default function Form() {
                   boxShadow: 2,
                 }}
                 multiline
-                label="Message"
+                label="Tell us about your event!"
                 rows={6}
                 defaultValue=""
                 variant="standard"
