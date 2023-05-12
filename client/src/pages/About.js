@@ -2,12 +2,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import '../assets/css/about.css';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import heroImg1 from '../components/images/black-mountain-070-1080x600.jpg';
-import heroImg2 from '../components/images/outdoor-wedding-ideas-newlyweds-happy-at-the-nature.jpg';
-import heroImg3 from '../components/images/rustic-wedding-ceremony-native-roaming.jpg';
-import heroImg4 from '../components/images/Trying-to-Plan-an-Outdoor-Wedding-Consider-These-Great-Tips-For-Success.jpg';
+import heroImg1 from '../components/images/ranchWeddingImages/image1.jpg';
+import heroImg2 from '../components/images/ranchWeddingImages/image17.jpeg';
+import heroImg3 from '../components/images/ranchWeddingImages/sunset.jpg';
+import heroImg4 from '../components/images/ranchWeddingImages/lakeside1.jpg';
+import heroImg5 from '../components/images/ranchWeddingImages/lakeside2.jpg'
+import Button from 'react-bootstrap/Button'
 
-const images = [heroImg1, heroImg2, heroImg3, heroImg4,];
+const images = [heroImg1, heroImg2, heroImg3, heroImg4,heroImg5,];
 
 
 export default function About() {
@@ -19,33 +21,19 @@ export default function About() {
           <h2>About Us</h2>
         </div>
         <p>
-          Cascade Mountain Ranch is a 50-acre ranch nestled in its own private
-          valley in Southern Oregon and surrounded by wilderness lands.
-          Hiking/walking trails lead you throughout the ranch. The mountains
-          rise on all sides, accented by Grand King Mountain Ridge to the
-          east. One can hike to the Lucky Queen Mines or enjoy the view with
-          pine, fir, madrone, oak and cedar trees lacing the entire panorama.
-          Wild Goose Lake is home to just that—wild geese! Deer, wild turkeys,
-          squirrels and, on rare occasions, elk can be seen roaming the Ranch.
-          There are no dangerous animals, snakes, etc. Seasonally, the sound
-          of Lucky Miner's Creek can be heard. Guests are encouraged to walk,
-          hike or bike the entire 50 acres with a map of the trails with
-          estimated distances. Over 30 miles of back roads are next door to
-          the ranch for ATVs and motorbikes. Prior to becoming a retreat
-          center in 2008, Cascade Mountain Ranch was a children's residential
-          group home for 15 years. The peaceful, rural setting provided a
-          great place for kids to be nurtured in a stable environment while
-          learning basic skills and the strong work ethic associated with
-          living in the country. After extensive renovations and upgrades the
-          newly transitioned Ranch now serves as a unique wilderness location
-          with guest accommodations for retreats, getaways, family reunions,
-          church functions, youth groups, weddings and other special events.
-          Groups and families are invited to enjoy the peaceful outdoors and
-          comfortable lodges. The Ranch is run by iCare, Inc., a non-profit
-          organization that helps and supports various specialized needs of
-          families and children. Cascade Mountain Ranch is operated solely by
-          volunteers. Please help us care for this special place.
+          Cascade Mountain Ranch offers the perfect setting for your next big event. Our private 50 acre ranch includes both open valley and mountain foothills, perfect for showing off the best nature has to offer. The Ranch is surrounded by rich forest land that serves as home to an array of wildlife. Seasonal creeks run through the property into our two lakes where you will find fish, ducks and geese. Our upper lake event deck features an on site kitchen, perfect for receptions, while our island gazebo is situated on our secluded lower lake. You can enjoy all of this natural beauty from the comfort of our two cozy mountain lodges, which each sleep up to 30 guests and provide picturesque mountain views. 
         </p>
+        <p>
+          Our rustic grounds, event deck and island gazebo make Cascade Mountain Ranch the perfect location for your wedding, reunion or retreat.
+        </p>
+        <p>
+          Contact us to schedule a tour!
+        </p>
+        <Button href= "/contact">Contact Us!</Button>
+        <p>  
+          We look forward to serving you
+        </p>
+        
       </div>
 
       <div>
@@ -79,6 +67,11 @@ export default function About() {
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[3]})` }}>
              
+            </div>
+          <div className="each-slide-effect">
+            <div className='slideImg' style={{ 'backgroundImage': `url(${images[4]})` }}
+            >
+             </div>
             </div>
           </div>
         </Slide>
