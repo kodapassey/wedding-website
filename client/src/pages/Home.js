@@ -28,7 +28,7 @@ export default function Home() {
             <div className="subHeader">
                 <h2>Oregon's Premier Wedding Destination</h2>
                 <p>
-                Just outside Grants Pass, Oregon you will find the little hamlet of Hugo, where Cascade Mountain Ranch sits nestled into the foothills between Mt. Sexton and Mt. Roberts. You and your guests can enjoy these spectacular mountain views from the comfort of our two mountain lodges. Our seasonal creeks provide a serine soundtrack as they wind their way to our two lakes. Our lower lake features a wooden bridge leading to our island gazebo (coming soon 2023), while our 6,000 sq ft event deck overlooks our upper lake. Whether you are getting married, planning a family reunion, or hosting a retreat, Cascade Mountain Ranch provides the perfect setting to make your event memorable.
+                    Just outside Grants Pass, Oregon you will find the little hamlet of Hugo, where Cascade Mountain Ranch sits nestled into the foothills between Mt. Sexton and Mt. Roberts. You and your guests can enjoy these spectacular mountain views from the comfort of our two mountain lodges. Our seasonal creeks provide a serine soundtrack as they wind their way to our two lakes. Our lower lake features a wooden bridge leading to our island gazebo (coming soon 2023), while our 6,000 sq ft event deck overlooks our upper lake. Whether you are getting married, planning a family reunion, or hosting a retreat, Cascade Mountain Ranch provides the perfect setting to make your event memorable.
                 </p>
                 <a href='/contact'>
                     <button>Get in touch today!</button>

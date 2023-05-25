@@ -9,6 +9,10 @@ body {
   pointer-events: none;
 }
 
+.contactH1 {
+  margin: 30px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

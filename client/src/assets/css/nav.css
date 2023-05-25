@@ -34,6 +34,7 @@
 .socials {
     color: #c0bfbf;
     font-size: 25px;
+    margin: 0 5px;
 }
 
 .socials:hover {
@@ -77,8 +78,6 @@
 
     .socials {
         color: #c0bfbf;
-        ;
         font-size: 25px;
-        margin-right: 20px;
     }
 }

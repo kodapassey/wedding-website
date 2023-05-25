@@ -11,7 +11,7 @@ export default function Form() {
   return (
     <>
       <div>
-        <h1>Contact Us</h1>
+        <h1 className="contactH1">Contact Us</h1>
       </div>
 
       <Container>

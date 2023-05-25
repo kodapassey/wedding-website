@@ -9,7 +9,7 @@ import heroImg4 from '../components/images/ranchWeddingImages/lakeside1.jpg';
 import heroImg5 from '../components/images/ranchWeddingImages/lakeside2.jpg'
 import Button from 'react-bootstrap/Button'
 
-const images = [heroImg1, heroImg2, heroImg3, heroImg4,heroImg5,];
+const images = [heroImg1, heroImg2, heroImg3, heroImg4, heroImg5,];
 
 
 export default function About() {
@@ -21,22 +21,29 @@ export default function About() {
           <h2>About Us</h2>
         </div>
         <p>
-          Cascade Mountain Ranch offers the perfect setting for your next big event. Our private 50 acre ranch includes both open valley and mountain foothills, perfect for showing off the best nature has to offer. The Ranch is surrounded by rich forest land that serves as home to an array of wildlife. Seasonal creeks run through the property into our two lakes where you will find fish, ducks and geese. Our upper lake event deck features an on site kitchen, perfect for receptions, while our island gazebo is situated on our secluded lower lake. You can enjoy all of this natural beauty from the comfort of our two cozy mountain lodges, which each sleep up to 30 guests and provide picturesque mountain views. 
+          Cascade Mountain Ranch offers the perfect setting for your next big event. Our private 50 acre ranch includes both open valley and mountain foothills, perfect for showing off the best nature has to offer. The Ranch is surrounded by rich forest land that serves as home to an array of wildlife. Seasonal creeks run through the property into our two lakes where you will find fish, ducks and geese. Our upper lake event deck features an on site kitchen, perfect for receptions, while our island gazebo is situated on our secluded lower lake. You can enjoy all of this natural beauty from the comfort of our two cozy mountain lodges, which each sleep up to 30 guests and provide picturesque mountain views.
         </p>
-        <p>
+
+
+        <p className="aboutMiddleDesc">
           Our rustic grounds, event deck and island gazebo make Cascade Mountain Ranch the perfect location for your wedding, reunion or retreat.
         </p>
-        <p>
-          Contact us to schedule a tour!
-        </p>
-        <Button href= "/contact">Contact Us!</Button>
-        <p>  
-          We look forward to serving you
-        </p>
-        
+
+        <div className="aboutPageContactDiv">
+          <p>
+            Contact us to schedule a tour!
+          </p>
+          <a href="/contact">
+            <button className="contactBtn">Contact Us!</button>
+          </a>
+          <p>
+            We look forward to serving you
+          </p>
+        </div>
+
       </div>
 
-      <div>
+      {/* <div className="aboutImg">
         <Slide nextArrow={<button style={{
           background: 'none',
           border: '0px',
@@ -51,31 +58,31 @@ export default function About() {
 
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[0]})` }}>
-             
+
             </div>
           </div>
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[1]})` }}>
-            
+
             </div>
           </div>
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[2]})` }}>
-              
+
             </div>
           </div>
           <div className="each-slide-effect">
             <div className='slideImg' style={{ 'backgroundImage': `url(${images[3]})` }}>
-             
+
             </div>
-          <div className="each-slide-effect">
-            <div className='slideImg' style={{ 'backgroundImage': `url(${images[4]})` }}
-            >
-             </div>
+            <div className="each-slide-effect">
+              <div className='slideImg' style={{ 'backgroundImage': `url(${images[4]})` }}
+              >
+              </div>
             </div>
           </div>
         </Slide>
-      </div>
+      </div> */}
 
       <div>
         <Container>

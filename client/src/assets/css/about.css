@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 650px;
+    height: 750px;
 }
 
 .each-slide-effect span {
@@ -50,6 +50,20 @@
     margin-top: 75px;
     width: 100%;
     height: 600px;
+}
+
+.contactBtn {
+    background: rgb(124, 187, 124);
+    color: white;
+    border: 3px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    width: 250px;
+}
+
+.aboutPageContactDiv p {
+    margin: 15px;
 }
 
 
