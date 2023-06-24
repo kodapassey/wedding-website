@@ -73,8 +73,7 @@
 
 .textWrap:hover {
     transition: all .5s ease-out;
-    bottom: 70px;
-    height: 70px;
+    background: rgb(123 171 123 / 50%);
 }
 
 .textWrap h3 {

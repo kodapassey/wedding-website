@@ -71,11 +71,23 @@
 
     .about,
     .about p {
-        margin: 10px;
+        margin: 45px 10px;
         margin-bottom: 20px;
     }
 
     .each-slide-effect>div {
         height: 350px;
+    }
+
+    .directionsh1 {
+        border-top: 1px solid lightgray;
+        border-bottom: none;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about h1 {
+        font-size: 50px;
     }
 }

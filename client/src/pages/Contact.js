@@ -18,7 +18,6 @@ export default function Form() {
         <Box
           className="contact-form-container"
           sx={{
-            m: 2,
             width: 1,
             p: 2,
             boxShadow: 2,

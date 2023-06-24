@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import "../assets/css/packages.css";
 
 
 
@@ -7,7 +8,7 @@ export default function Pricing() {
   return (
     <>
     <Container>
-      <h1>Packages</h1>
+      <h1 className="packagesH1">Packages</h1>
       <h5>We know that each wedding is unique. If the below options don't quite fit your vision just give us a call!</h5>
     </Container>
 
