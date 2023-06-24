@@ -3,10 +3,23 @@ import Button from "react-bootstrap/Button";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 import beefCakes from "../components/images/vendors/beefCakes.jpg";
 import beefCakesCake from "../components/images/vendors/beefCakesCake.jpg"
+
 import theThirstyWheelLogo from "../components/images/vendors/theThirstyWheelLogo.jpg"
 import theThirstyWheelSetup from "../components/images/vendors/theThirstyWheelSetup.jpg"
+
+import santePhotography from "../components/images/vendors/SANT8790-1-768x512.jpg"
+import santeLogo from "../components/images/vendors/SANTE-LOGO.png"
+
+import fourLegPhotosLogo from "../components/images/vendors/4leglogowhite2022.webp"
+import fourLegPhotosCow from "../components/images/vendors/Longhorn -cow copy.jpg"
+
+import jeffRomeLogo from "../components/images/vendors/Jef-CircleColor-01.jpg"
+import jeffRomeImg from "../components/images/vendors/Fall+family-028.jpg"
+
+
 import { Link } from "react-router-dom";
 import "../assets/css/vendors.css";
 
@@ -34,10 +47,10 @@ export default function Vendors() {
 
 
       <Container>
-        <Row>
 
+        <Row className="vendorRow">
+          <h3>Bartending Services</h3>
           <Col className="vendorCol" xl={4} md={4}>
-            <h3>Bartending Service</h3>
             <div className="vendorWrap">
               <div className="vendorsLogo">
                 <img className="" src={theThirstyWheelLogo} alt="logo"></img>
@@ -69,8 +82,9 @@ export default function Vendors() {
 
             </div>
           </Col>
+        </Row>
 
-          {/* <Container>
+        {/* <Container>
           <h3>Officiants</h3>
         </Container>
 
@@ -78,16 +92,15 @@ export default function Vendors() {
           <h3>Florists</h3>
         </Container> */}
 
+
+        <Row className="vendorRow">
+          <h3>Bakeries</h3>
           <Col className="vendorCol" xl={4} md={4}>
-            <h3>Bakery</h3>
             <div className="vendorWrap">
               <div className="vendorsLogo">
                 <img className="" src={beefCakes} alt="logo"></img>
               </div>
               <h4>Beef Cakes</h4>
-              {/* <p>Alyssa Warne</p> */}
-              {/* <p>532 NE E Street</p>
-            <p>Grants Pass, OR 97526</p> */}
 
               <a href="https://www.beefcakesgp.com">
                 <button>Visit their Website</button>
@@ -111,8 +124,104 @@ export default function Vendors() {
 
             </div>
           </Col>
-
         </Row>
+
+
+        <Row className="vendorRow">
+          <h3>Photographers</h3>
+          <Col className="vendorCol" xl={4} md={4}>
+
+            <div className="vendorWrap">
+              <div className="vendorsLogo">
+                <img className="" src={santeLogo} alt="logo"></img>
+              </div>
+              <h4>Sante Photography</h4>
+
+              <a href="https://santephotography.com/">
+                <button>Visit their Website</button>
+              </a>
+
+              <h5>Checkout their social medias!</h5>
+
+              <div className="vendorSocials">
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsantephotography.com%2Fexperience%2F" >
+                  <FontAwesomeIcon className="socials" icon={faFacebook} />
+                </a>
+
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com">
+                  <FontAwesomeIcon className="socials" icon={faInstagram} />
+                </a>
+              </div>
+
+              <div className="vendorsImgExp">
+                <img className="" src={santePhotography} alt="logo"></img>
+              </div>
+
+            </div>
+          </Col>
+
+
+          <Col className="vendorCol" xl={4} md={4}>
+            <div className="vendorWrap">
+              <div className="vendorsLogo">
+                <img className="" src={jeffRomeLogo} alt="logo"></img>
+              </div>
+              <h4>Photo Expressions</h4>
+
+              <a href="https://www.photoexpressions-jrome.com/?fbclid=IwAR394Dhjezc72Y6pPEEsb1c9uXPJFlaZDMGd6p7lRyuXcvISJFwMFBWm-YY">
+                <button>Visit their Website</button>
+              </a>
+
+              <h5>Checkout their social medias!</h5>
+
+              <div className="vendorSocials">
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/photoexpressionsphoto" >
+                  <FontAwesomeIcon className="socials" icon={faFacebook} />
+                </a>
+
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com">
+                  <FontAwesomeIcon className="socials" icon={faInstagram} />
+                </a>
+              </div>
+
+              <div className="vendorsImgExp">
+                <img className="" src={jeffRomeImg} alt="logo"></img>
+              </div>
+
+            </div>
+          </Col>
+
+          <Col className="vendorCol" xl={4} md={4}>
+            <div className="vendorWrap">
+              <div className="vendorsLogo fourLegLogo">
+                <img className="" src={fourLegPhotosLogo} alt="logo"></img>
+              </div>
+              <h4>4 Leg Photos</h4>
+
+              <a href="https://www.4legphotos.com/?fbclid=IwAR1h2842UEHNQK7GychXKsPE7oAeD4OoyW9XXWohWR2KQQhgwXwcWIcCyOs">
+                <button>Visit their Website</button>
+              </a>
+
+              <h5>Checkout their social medias!</h5>
+
+              <div className="vendorSocials">
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/4LegPhotos" >
+                  <FontAwesomeIcon className="socials" icon={faFacebook} />
+                </a>
+
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com">
+                  <FontAwesomeIcon className="socials" icon={faInstagram} />
+                </a>
+              </div>
+
+              <div className="vendorsImgExp">
+                <img className="" src={fourLegPhotosCow} alt="logo"></img>
+              </div>
+
+            </div>
+          </Col>
+        </Row>
+
       </Container >
 
     </>
