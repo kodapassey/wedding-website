@@ -18,7 +18,7 @@ export default function About() {
       <div className="about">
         <div className="aboutHead">
           <h1>Cascade Mountain Ranch</h1>
-          <h2>About Us</h2>
+          
         </div>
         <p>
           Cascade Mountain Ranch offers the perfect setting for your next big event. Our private 50 acre ranch includes both open valley and mountain foothills, perfect for showing off the best nature has to offer. The Ranch is surrounded by rich forest land that serves as home to an array of wildlife. Seasonal creeks run through the property into our two lakes where you will find fish, ducks and geese. Our upper lake event deck features an on site kitchen, perfect for receptions, while our island gazebo is situated on our secluded lower lake. You can enjoy all of this natural beauty from the comfort of our two cozy mountain lodges, which each sleep up to 30 guests and provide picturesque mountain views.
