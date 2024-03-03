@@ -1,0 +1,35 @@
+/* Highlight required fields with a specific color or style */
+.required-field::before {
+    content: '*';
+    color: red; /* or any color that stands out */
+    margin-right: 5px;
+  }
+
+  
+  /* Custom styles for error messages */
+  .error-message {
+    color: red; /* Red text for error messages */
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  /* Hide error messages initially */
+  .error-message {
+    color: red; /* Red text for error messages */
+    font-size: 0.8em;
+    display: none;
+  }
+  
+  /* Show error message when input is invalid */
+  input:invalid + .error-message,
+  textarea:invalid + .error-message {
+    display: block;
+  }
+  .invalid-field {
+    border: 2px solid red; /* Red border for invalid fields */
+  }
+  
+  /* Custom styles for error messages, shown only when 'invalid-field' class is added */
+  .invalid-field + .error-message {
+    display: block;
+  }
