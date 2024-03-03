@@ -52,7 +52,7 @@ export default function Footer() {
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                             <p>
                                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                                getaway@usa.com
+                                <a href='mailto:getaway@use.com'>getaway@usa.com</a>
                             </p>
                             <p>
                                 <MDBIcon color='secondary' icon='envelope' className='me-3' />

@@ -3,6 +3,9 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 
+import eventDeck from "./images/ranchWeddingImages/eventDeck.jpg"
+import lakeside from "./images/ranchWeddingImages/lakeside.jpg"
+import pastureMountain from "./images/ranchWeddingImages/pastureMountain.jpg"
 
 import image1 from "./images/ranchWeddingImages/image1.jpg"
 import image2 from "./images/ranchWeddingImages/image2.jpeg"
@@ -34,6 +37,25 @@ import image27 from "./images/ranchWeddingImages/image27.jpeg"
 import image28 from "./images/ranchWeddingImages/image28.jpeg"
 import image29 from "./images/ranchWeddingImages/image29.jpeg"
 import image30 from "./images/ranchWeddingImages/image30.jpeg"
+import image31 from "./images/ranchWeddingImages/image31.jpeg"
+import image32 from "./images/ranchWeddingImages/image32.jpeg"
+import image33 from "./images/ranchWeddingImages/image33.jpeg"
+import image34 from "./images/ranchWeddingImages/image34.jpeg"
+import image35 from "./images/ranchWeddingImages/image35.jpeg"
+import image36 from "./images/ranchWeddingImages/image36.jpg"
+import image37 from "./images/ranchWeddingImages/image37.jpeg"
+import image38 from "./images/ranchWeddingImages/image38.jpg"
+import image39 from "./images/ranchWeddingImages/image39.jpg"
+import image40 from "./images/ranchWeddingImages/image40.jpg"
+import image41 from "./images/ranchWeddingImages/image41.jpg"
+import image42 from "./images/ranchWeddingImages/image42.jpg"
+import image43 from "./images/ranchWeddingImages/image43.jpg"
+import image44 from "./images/ranchWeddingImages/image44.jpg"
+import image45 from "./images/ranchWeddingImages/image45.jpg"
+import image46 from "./images/ranchWeddingImages/image46.jpg"
+import image47 from "./images/ranchWeddingImages/image37.jpeg"
+import image48 from "./images/ranchWeddingImages/image48.jpg"
+
 
 const images = [
     {
@@ -156,6 +178,95 @@ title: "Outdoor dinning available"
 image: image30,
 title: "Charlie Chase and Sparkles"
 },
+{
+  image: eventDeck,
+  title: "Kelly Lodge Reception"
+  },
+  {
+  image: lakeside,
+  title: "Dinner at the Cascade Lodge"
+  },
+  {
+  image: pastureMountain,
+  title: "Outdoor dinning available"
+  },
+  {
+  image: image30,
+  title: "Charlie Chase and Sparkles"
+  },
+
+{
+  image: image31,
+  title: "No animals were harmed in this picture"
+  },
+  {
+  image: image32,
+  title: "The Meadows"
+  },
+  {
+  image: image33,
+  title: "Kelly Lodge Reception"
+  },
+  {
+  image: image34,
+  title: "Dinner at the Cascade Lodge"
+  },
+  {
+  image: image35,
+  title: "Outdoor dinning available"
+  },
+  {
+  image: image36,
+  title: "Charlie Chase and Sparkles"
+  },
+  {
+    image: image37,
+    title: "No animals were harmed in this picture"
+    },
+    {
+    image: image38,
+    title: "The Meadows"
+    },
+    {
+    image: image39,
+    title: "Kelly Lodge Reception"
+    },
+    {
+    image: image40,
+    title: "Dinner at the Cascade Lodge"
+    },
+    {
+    image: image41,
+    title: "Outdoor dinning available"
+    },
+    {
+    image: image42,
+    title: "Charlie Chase and Sparkles"
+    },
+    {
+      image: image43,
+      title: "No animals were harmed in this picture"
+      },
+      {
+      image: image44,
+      title: "The Meadows"
+      },
+      {
+      image: image45,
+      title: "Kelly Lodge Reception"
+      },
+      {
+      image: image46,
+      title: "Dinner at the Cascade Lodge"
+      },
+      {
+      image: image47,
+      title: "Outdoor dinning available"
+      },
+      {
+      image: image48,
+      title: "Charlie Chase and Sparkles"
+      },
 ];
 
 
@@ -167,7 +278,7 @@ export default function MyGallery() {
       <Box 
       sx={{ px:2 }}
       >
-      <ImageList variant="masonry" cols={3} gap={8}>
+      <ImageList variant="masonry" cols={3} gap={12}>
         {images.map((item) => (
           <ImageListItem key={item.image}>
             <img

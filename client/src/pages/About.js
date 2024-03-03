@@ -6,7 +6,7 @@ import heroImg1 from '../components/images/ranchWeddingImages/image1.jpg';
 import heroImg2 from '../components/images/ranchWeddingImages/image17.jpeg';
 import heroImg3 from '../components/images/ranchWeddingImages/sunset.jpg';
 import heroImg4 from '../components/images/ranchWeddingImages/lakeside1.jpg';
-import heroImg5 from '../components/images/ranchWeddingImages/lakeside2.jpg'
+import heroImg5 from '../components/images/ranchWeddingImages/lakeside.jpg'
 import Button from 'react-bootstrap/Button'
 
 const images = [heroImg1, heroImg2, heroImg3, heroImg4, heroImg5,];

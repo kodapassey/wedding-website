@@ -4,13 +4,13 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import heroImg1 from "../components/images/ranchWeddingImages/image3.jpg";
 import heroImg2 from "../components/images/ranchWeddingImages/image6.jpeg";
-import heroImg3 from "../components/images/ranchWeddingImages/image1.jpg";
+import heroImg3 from "../components/images/ranchWeddingImages/pastureMountain.jpg";
 import heroImg4 from "../components/images/ranchWeddingImages/sunset.jpg";
-import heroImg5 from "../components/images/ranchWeddingImages/image10.jpeg";
+import heroImg5 from "../components/images/ranchWeddingImages/lakeside.jpg";
 import heroImg6 from "../components/images/ranchWeddingImages/image36.jpg";
-import heroImg7 from "../components/images/ranchWeddingImages/Kelly.jpg";
+import heroImg7 from "../components/images/ranchWeddingImages/eventDeck.jpg";
 import heroImg8 from "../components/images/ranchWeddingImages/Kelly2.jpg";
-import heroImg9 from "../components/images/ranchWeddingImages/lakeside2.jpg";
+import heroImg9 from "../components/images/ranchWeddingImages/lakeside1.jpg";
 import heroImg10 from "../components/images/ranchWeddingImages/deckHammer.jpg";
 import heroImg11 from "../components/images/ranchWeddingImages/island.jpg";
 
@@ -43,7 +43,7 @@ export default function Venue() {
       </Container>
 
       <Container>
-        <h2 className="subHead">Island Gazebo (Coming Soon 2023)</h2>
+        <h2 className="subHead">Island Gazebo (Coming Soon 2024)</h2>
         <Row className="venue">
           <Col className="box" xl={6}>
             {/* <a className='boxLink' href='#'> */}
