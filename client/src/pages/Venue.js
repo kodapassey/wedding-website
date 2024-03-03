@@ -3,7 +3,7 @@ import "../assets/css/venue.css";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import heroImg1 from "../components/images/ranchWeddingImages/image3.jpg";
-import heroImg2 from "../components/images/ranchWeddingImages/image6.jpeg";
+import heroImg2 from "../components/images/ranchWeddingImages/Kelly.jpg";
 import heroImg3 from "../components/images/ranchWeddingImages/pastureMountain.jpg";
 import heroImg4 from "../components/images/ranchWeddingImages/sunset.jpg";
 import heroImg5 from "../components/images/ranchWeddingImages/lakeside.jpg";
@@ -101,7 +101,7 @@ export default function Venue() {
         <Row className="venue">
           <Col className="box" xl={6}>
             {/* <a className='boxLink' href='#'> */}
-            <img className="venueImg" src={heroImg7}></img>
+            <img className="venueImg" src={heroImg2}></img>
             {/* </a> */}
           </Col>
           <Col className="box" xl={6}>
